@@ -10,6 +10,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 
+import os
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -41,6 +42,7 @@ INSTALLED_APPS = [
     'rest_framework.authtoken',
     'core',
     'user',
+    'recipe',
 ]
 
 MIDDLEWARE = [
@@ -77,14 +79,13 @@ WSGI_APPLICATION = 'app.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
-import os
 DATABASES = {
     'default': {
-        'ENGINE':'django.db.backends.postgresql',
-        'HOST':os.environ.get('DB_HOST'),
-        'NAME':os.environ.get('DB_NAME'),
-        'USER':os.environ.get('DB_USER'),
-        'PASSWORD':os.environ.get('DB_PASS'),
+        'ENGINE': 'django.db.backends.postgresql',
+        'HOST': os.environ.get('DB_HOST'),
+        'NAME': os.environ.get('DB_NAME'),
+        'USER': os.environ.get('DB_USER'),
+        'PASSWORD': os.environ.get('DB_PASS'),
     }
 }
 
