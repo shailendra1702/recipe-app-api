@@ -10,7 +10,7 @@ RUN apk add --update --no-cache --virtual .temp-build-deps \
 RUN pip install -r /requirements.txt
 RUN apk del .temp-build-deps
 
-RUN mkdir /app
+RUN mkdir /ap p
 WORKDIR /app
 COPY ./app /app
 
