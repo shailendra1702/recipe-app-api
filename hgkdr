@@ -1,0 +1,83 @@
+[33mcommit c891c05ddd7ba3089afb6e9a07cdb92c9f0f0ed4[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Shailendra <kumarshalendra1702@gmail.com>
+Date:   Tue Jan 11 12:47:56 2022 +0530
+
+    Re-factored test and ingredients
+
+[33mcommit e356d8488d7c7c776326491e1e18a94793080afb[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Shailendra <kumarshalendra1702@gmail.com>
+Date:   Tue Jan 11 12:25:33 2022 +0530
+
+    Added create ingredient feature
+
+[33mcommit ce53897c9144cb6e8e69c01df5b9e24141951d86[m
+Author: Shailendra <kumarshalendra1702@gmail.com>
+Date:   Mon Jan 10 22:13:30 2022 +0530
+
+    Added list ingredients feature
+
+[33mcommit b5f30d24347063228fba911a67ba3dcef148d79c[m
+Author: Shailendra <kumarshalendra1702@gmail.com>
+Date:   Sun Oct 24 14:58:03 2021 +0530
+
+    Added create tag feature
+
+[33mcommit a3019dc2a55fd9c48165c22f7a962d4b2ce34470[m
+Author: Shailendra <kumarshalendra1702@gmail.com>
+Date:   Sun Oct 24 11:31:39 2021 +0530
+
+    Added working list tags endpoint.
+
+[33mcommit 12af5876a5b04bc077c14bbdc658799d78f6d584[m
+Author: Shailendra <kumarshalendra1702@gmail.com>
+Date:   Wed Oct 20 11:20:05 2021 +0530
+
+    Addedmanage user endpoint
+
+[33mcommit 9fcc6f1529ff28df338cae7578acda4a9fa708f2[m
+Author: Shailendra <kumarshalendra1702@gmail.com>
+Date:   Tue Oct 19 18:05:11 2021 +0530
+
+    Added endpoint for creating users and authenticating users
+
+[33mcommit 3e38ef7176ef5a26dd541c90dc360a3153d65042[m
+Author: Shailendra <kumarshalendra1702@gmail.com>
+Date:   Sat Oct 16 18:34:51 2021 +0530
+
+    configured postgres db.
+
+[33mcommit a8285041c830a590d721b1985670b25aa49ac443[m
+Author: Shailendra <kumarshalendra1702@gmail.com>
+Date:   Sat Oct 16 00:53:50 2021 +0530
+
+    Updated admin to support custom user model
+
+[33mcommit 2a4ca1c0bb0bc7bc8c98e29b7c6d590b52eb78d6[m
+Author: Shailendra <kumarshalendra1702@gmail.com>
+Date:   Thu Oct 14 16:31:52 2021 +0530
+
+    Added custom user model
+
+[33mcommit 94f29413b11da2e346db623d3915a732019f2570[m
+Author: Shailendra <kumarshalendra1702@gmail.com>
+Date:   Mon Oct 11 23:32:57 2021 +0530
+
+    debug syntax error
+
+[33mcommit 1b46f403ac459014318cbbd1d40d6486130e48b2[m
+Author: Shailendra <kumarshalendra1702@gmail.com>
+Date:   Mon Oct 11 22:51:13 2021 +0530
+
+    Added flake8 and Travis-CI configuration.
+
+[33mcommit 66e9a7f56f2f02de740c7ee271e38bdc628c4f29[m
+Author: Shailendra <kumarshalendra1702@gmail.com>
+Date:   Sun Oct 10 20:26:53 2021 +0530
+
+    created django project app
+
+[33mcommit e7bbce4c057f0461f049337cfc446a1bbfd01cbf[m
+Author: Shailendra kumar <56170896+shailendra1702@users.noreply.github.com>
+Date:   Sun Oct 10 17:22:56 2021 +0530
+
+    Initial commit
